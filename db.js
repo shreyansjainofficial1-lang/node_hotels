@@ -6,8 +6,8 @@ require('dotenv').config();
 // const mongooseUrl =    'mongodb+srv://shreyansjainofficial1_db_user:0kiJvtL3PDwBhe3s@cluster0.uyuvcah.mongodb.net/'
 // const MONGODB_URL = process.env.MONGODB_URL;
 
-const mongoURL = process.env.MONGODB_URL_LOCAL;
-// const mongoURL =process.env.MONGODB_URL;
+//const mongoURL = process.env.MONGODB_URL_LOCAL;
+ const mongoURL =process.env.MONGODB_URL;
 // set up mongo db connection
 mongoose.connect(mongoURL,{
     usenewUrlParser: true,
